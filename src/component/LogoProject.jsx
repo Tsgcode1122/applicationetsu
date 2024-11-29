@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import w1 from "../Images/w1.jpg";
+import w1 from "../Images/l1.jpg";
 import w2 from "../Images/w2.jpg";
 import w3 from "../Images/w3.jpg";
 import w4 from "../Images/w4.jpg";
@@ -8,8 +8,8 @@ import w5 from "../Images/w5.jpg";
 import w6 from "../Images/w6.jpg";
 import w7 from "../Images/w7.jpg";
 import w8 from "../Images/w8.jpg";
-import w9 from "../Images/w9.jpg";
-import w11 from "../Images/s1.jpg";
+import w9 from "../Images/l3.jpg";
+import w11 from "../Images/l4.png";
 import w12 from "../Images/s3.jpg";
 import w13 from "../Images/s7.jpg";
 import w14 from "../Images/s6.jpg";
@@ -23,18 +23,18 @@ const images = [
   { src: w3, height: "auto" },
   { src: w4, height: "auto" },
   { src: w5, height: "auto" },
-  { src: w6, height: "auto" },
+  // { src: w6, height: "auto" },
   { src: w7, height: "auto" },
   { src: w8, height: "auto" },
   { src: w9, height: "auto" },
   // { src: w10, height: "auto" },
   { src: w11, height: "auto" },
   { src: w12, height: "auto" },
-  { src: w13, height: "auto" },
-  { src: w14, height: "auto" },
+  // { src: w13, height: "auto" },
+  // { src: w14, height: "auto" },
   { src: w15, height: "auto" },
   { src: w16, height: "auto" },
-  { src: w17, height: "auto" },
+  // { src: w17, height: "auto" },
 ];
 
 const Container = styled.div`

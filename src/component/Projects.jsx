@@ -16,6 +16,7 @@ import Project4 from "../PortfolioImages/mobile3.png";
 import Project5 from "../PortfolioImages/mobile4.png";
 import Project6 from "../PortfolioImages/mobile6.png";
 import Project7 from "../PortfolioImages/mobile7.png";
+import Project8 from "../PortfolioImages/mobile8.png";
 import "../Styles.scss";
 
 const animateText = {
@@ -43,6 +44,62 @@ const Projects = () => {
             viewport={{ once: false, amount: 0.2 }}
             className="Projects"
           >
+            <motion.div variants={animateText}>
+              <a
+                href="https://tsf-calculator.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="Project-img">
+                  <img src={Project8} />
+                  <div className="Project-image-icons">
+                    <h4>OneStopBody</h4>
+                    <div className="Project-icons">
+                      <img src={react} />
+                      <img src={Scss} />
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <div className="Project-desc">
+                <article>
+                  Designed a Body Cream Landing website, Merging React,
+                  Syled-Comonent, and Framer Motion,the site delivers a seamless
+                  and engaging experience for users to order body .
+                </article>
+                <div className="Project-live">
+                  <a
+                    href="https://github.com/Tsgcode1122/oneStop"
+                    rel="noopener noreferrer"
+                    className="nonas"
+                    target="_blank"
+                  >
+                    <span>
+                      <FaGithub />
+                    </span>
+                    Source Code
+                  </a>
+                  <a
+                    href="https://onestopbody.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>
+                      <CiLink />
+                    </span>
+                    Visit Website
+                  </a>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+          {/* <motion.div
+            initial={"setOff"}
+            whileInView={"setIn"}
+            viewport={{ once: false, amount: 0.2 }}
+            className="Projects"
+          >
+          
             <motion.div variants={animateText}>
               <a
                 href="http://Www.ignitioncarcare.com"
@@ -93,7 +150,7 @@ const Projects = () => {
                 </div>
               </div>
             </motion.div>
-          </motion.div>
+          </motion.div> */}
           <motion.div
             initial={"setOff"}
             whileInView={"setIn"}
@@ -265,7 +322,7 @@ const Projects = () => {
             </motion.div>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={"setOff"}
             whileInView={"setIn"}
             viewport={{ once: false, amount: 0.2 }}
@@ -322,8 +379,8 @@ const Projects = () => {
                 </div>
               </div>
             </motion.div>
-          </motion.div>
-          <motion.div
+          </motion.div> */}
+          {/* <motion.div
             initial={"setOff"}
             whileInView={"setIn"}
             viewport={{ once: false, amount: 0.2 }}
@@ -378,8 +435,8 @@ const Projects = () => {
                 </div>
               </div>
             </motion.div>
-          </motion.div>
-          <motion.div
+          </motion.div> */}
+          {/* <motion.div
             initial={"setOff"}
             whileInView={"setIn"}
             viewport={{ once: false, amount: 0.2 }}
@@ -434,7 +491,7 @@ const Projects = () => {
                 </div>
               </div>
             </motion.div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </section>
     </>

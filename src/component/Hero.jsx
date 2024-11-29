@@ -37,8 +37,8 @@ const Hero = () => {
             bringing your ideas to life. With a blend of creativity, precision,
             and a deep understanding of design principles, I craft visuals that
             tell stories, capture attention, and elevate brands. Whether it's
-            branding, digital illustrations, or print media, I’m here to help
-            you stand out. Let’s create something amazing together!
+            branding, Flyers, digital illustrations, or print media, I’m here to
+            help you stand out. Let’s create something amazing together!
           </article>
           <div className="Hero-cta">
             <Link to="/Portfolio">

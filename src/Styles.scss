@@ -509,6 +509,7 @@ h4 {
 }
 // get in touch
 .contact {
+  margin-top: -2rem !important;
   padding-bottom: 2rem;
   background-color: $secondary-color;
   color: $primary-color;
@@ -2633,7 +2634,7 @@ h4 {
   .Hero {
     height: 80vh;
     background: url(./Images/bg-dark.jpg) no-repeat center/cover;
-    padding: 12rem 4em 0 4rem;
+    // padding: 12rem 4em 0 4rem;
     text-align: center;
     .Hero-img {
       img {
@@ -2973,9 +2974,9 @@ h4 {
 
   // hero
   .Hero {
-    height: 80vh;
+    // height: 70vh;
     background: url(./Images/bg-dark.jpg) no-repeat center/cover;
-    padding: 12rem 4em 0 4rem;
+    // padding: 12rem 4em 0 4rem;
     text-align: center;
     .Hero-img {
       img {
@@ -3314,9 +3315,9 @@ h4 {
 
   // hero
   .Hero {
-    height: 100vh;
+    // height: 70vh;
     background: url(./Images/bg-dark.jpg) no-repeat center/cover;
-    padding: 12rem 4em 0 4rem;
+    // padding: 7rem 4em 0 4rem;
     text-align: center;
     .Hero-img {
       img {
@@ -3657,9 +3658,9 @@ h4 {
 
   // hero
   .Hero {
-    height: 100vh;
+    // height: 100vh;
     background: url(./Images/bg-dark.jpg) no-repeat center/cover;
-    padding: 16rem 4em 0 4rem;
+    // padding: 16rem 4em 0 4rem;
     text-align: center;
     display: flex;
     flex-direction: row-reverse;
@@ -4094,9 +4095,9 @@ h4 {
 
   // hero
   .Hero {
-    height: 100vh;
+    // height: 100vh;
     background: url(./Images/bg-dark.jpg) no-repeat center/cover;
-    padding: 16rem 6rem 0 6rem;
+    // padding: 16rem 6rem 0 6rem;
     text-align: center;
     display: flex;
     flex-direction: row-reverse;
@@ -4423,9 +4424,9 @@ h4 {
 
   // hero
   .Hero {
-    height: 100vh;
+    // height: 100vh;
     background: url(./Images/bg-dark.jpg) no-repeat center/cover;
-    padding: 14rem 8rem 0 8rem;
+    // padding: 10rem 8rem 0 8rem;
     text-align: center;
     display: flex;
     flex-direction: row-reverse;

@@ -4,22 +4,22 @@ import w1 from "../Images/f1.jpg";
 import w2 from "../Images/f5.jpg";
 import w3 from "../Images/f3.jpg";
 import w4 from "../Images/f4.jpg";
-import w5 from "../Images/f5.jpg";
-import w6 from "../Images/w6.jpg";
-import w7 from "../Images/w7.jpg";
-import w8 from "../Images/w8.jpg";
+import w5 from "../Images/f9.jpg";
+import w6 from "../Images/f10.jpg";
+import w7 from "../Images/f20.jpg";
+import w8 from "../Images/f21.jpg";
 import w9 from "../Images/w9.jpg";
 import w10 from "../Images/w10.jpg";
 
 const images = [
   { src: w1, height: "auto" },
-  { src: w2, height: "auto" },
+  // { src: w2, height: "auto" },
   { src: w3, height: "auto" },
   { src: w4, height: "auto" },
   // { src: w5, height: "auto" },
-  // { src: w6, height: "auto" },
-  // { src: w7, height: "auto" },
-  // { src: w8, height: "auto" },
+  { src: w6, height: "auto" },
+  { src: w7, height: "auto" },
+  { src: w8, height: "auto" },
   // { src: w9, height: "auto" },
   // { src: w10, height: "auto" },
 ];
@@ -40,7 +40,7 @@ const Container = styled.div`
 
   a {
     text-align: center;
-    color: red;
+    color: #fd562a;
     font-size: 23px;
   }
 `;
@@ -48,6 +48,7 @@ const Co = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 0 40px 0;
 `;
 const GalleryContainer = styled.div`
   display: grid;
@@ -83,7 +84,7 @@ const ImageItem = styled.img`
 const Flyer = () => {
   return (
     <Container>
-      {/* <h5 style={{ textAlign: "center" }}>Design</h5> */}
+      <h2 style={{ textAlign: "center" }}>FLYERS/COVER</h2>
       <GalleryContainer>
         {images.map((image, index) => {
           let height = image.height;
@@ -102,9 +103,9 @@ const Flyer = () => {
           );
         })}
       </GalleryContainer>
-      <h5 style={{ textAlign: "center", padding: " 0 20px" }}>
+      <h5 style={{ textAlign: "center", padding: " 0 20px " }}>
         Kindly click below to check my Instagram page to explore all my designs
-        over 4 years
+        over 5 years
       </h5>
       <Co>
         <a href="https://www.instagram.com/soft_graphics?igsh=eGsyZHV5MjlmM2ll">
