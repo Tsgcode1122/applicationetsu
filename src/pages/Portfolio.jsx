@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import Projects from "../component/Projects";
 import Footer from "../component/Footer";
+import LogoProject from "../component/LogoProject";
+import Flyer from "../component/Flyer";
 import ScrollToTopButton from "../component/ScrollToTopButton";
 import { motion } from "framer-motion";
 const Portfolio = () => {
@@ -18,7 +20,10 @@ const Portfolio = () => {
             appreciated!
           </article>
         </div>
+        <LogoProject />
+        <Flyer />
         <Projects />
+
         <Footer />
         <ScrollToTopButton />
       </div>
