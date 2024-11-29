@@ -8,8 +8,8 @@ import w5 from "../Images/f9.jpg";
 import w6 from "../Images/f10.jpg";
 import w7 from "../Images/f20.jpg";
 import w8 from "../Images/f21.jpg";
-import w9 from "../Images/w9.jpg";
-import w10 from "../Images/w10.jpg";
+import w9 from "../Images/f23.jpg";
+import w10 from "../Images/f11.jpg";
 
 const images = [
   { src: w1, height: "auto" },
@@ -20,8 +20,8 @@ const images = [
   { src: w6, height: "auto" },
   { src: w7, height: "auto" },
   { src: w8, height: "auto" },
-  // { src: w9, height: "auto" },
-  // { src: w10, height: "auto" },
+  { src: w9, height: "auto" },
+  { src: w10, height: "auto" },
 ];
 
 const Container = styled.div`
@@ -43,12 +43,23 @@ const Container = styled.div`
     color: #fd562a;
     font-size: 23px;
   }
+  h5 {
+    @media (min-width: 1000px) {
+      font-size: 18px;
+    }
+  }
 `;
-const Co = styled.div`
+const Co = styled.h5`
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 0 40px 0;
+
+  a {
+    @media (min-width: 1000px) {
+      font-size: 24px;
+    }
+  }
 `;
 const GalleryContainer = styled.div`
   display: grid;
