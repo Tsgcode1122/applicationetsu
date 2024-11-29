@@ -33,12 +33,12 @@ const Hero = () => {
           <h1>Falola Tosin S.</h1>
           <p> A Graphics Designer</p>
           <article className="left-in">
-            I'm a passionate Graphic/Web Designer and Freelancer dedicated to
-            bringing your ideas to life. With a blend of creativity, precision,
-            and a deep understanding of design principles, I craft visuals that
-            tell stories, capture attention, and elevate brands. Whether it's
-            branding, Flyers, digital illustrations, or print media, I’m here to
-            help you stand out. Let’s create something amazing together!
+            I'm a passionate Designer dedicated to bringing your ideas to life.
+            With a blend of creativity, precision, and a deep understanding of
+            design principles, I craft visuals that tell stories, capture
+            attention, and elevate brands. Whether it's branding, Flyers,
+            digital illustrations, or print media, I’m here to help you stand
+            out. Let’s create something amazing together!
           </article>
           <div className="Hero-cta">
             <Link to="/Portfolio">
